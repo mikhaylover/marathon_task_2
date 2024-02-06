@@ -58,7 +58,6 @@ class ViewController: UIViewController {
 
     private func makeButton(text: String) -> CustomButton {
         var configuration = UIButton.Configuration.plain()
-        configuration.image = UIImage(systemName: "arrow.right.circle.fill")
         configuration.imagePlacement = .trailing
         configuration.imagePadding = 8
         configuration.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 14, bottom: 10, trailing: 14)
